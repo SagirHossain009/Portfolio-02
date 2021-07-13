@@ -1,0 +1,320 @@
+body *{
+	margin: 0;
+	padding: 0;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span, input{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*************************
+ end default setup
+*************************/
+
+/*****************************************
+ Header & cover text section css code start from here
+*****************************************/
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.h-right ul li{
+	list-style: none;
+    display: inline-block;
+    margin-left: 15px;  
+}
+
+.h-right ul li a{
+	color: white;
+}
+
+.h-right ul li a button{
+	background: transparent;
+    border: 2px solid ghostwhite;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+body{
+	width: 100%;
+	height: 25vh;
+	background: url(../img/c-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.c-text{
+	padding: 65px 0;
+	text-align: center;
+	display: block;
+	color: white;
+}
+
+.c-text h2{
+	margin: 15px;
+	font-size: 20px;
+}
+
+.c-text h1{
+	font-size: 40px;
+
+}
+
+.btn{
+	text-align: center;
+	margin-top: -24px;
+}
+
+.btn a button{
+	background: #FB2056;
+	border: none;
+	border-radius: 8px;
+	margin: 2px;
+	padding: 10px;
+	color: white;
+}
+
+/*****************************************
+ Header & cover text section css code end from here
+*****************************************/
+
+/*****************************************
+ Event section css code start from here
+*****************************************/
+
+.event{
+	margin: 180px 0;
+}
+
+.container	{
+	padding: 30px 0;
+}
+
+.e-text p{
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.e-text h3{
+	text-align: center;
+    font-style: normal;
+    font-size: 23px;
+    color: #8C949C;
+    margin-top: 30px;
+}
+
+.e-text h1{
+	padding: 75px 0;
+	text-align: center;
+	font-style: normal;
+	font-size: 40px;
+	color: black;
+}
+
+.e-pics{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.e-left h3{
+	padding: 10px;
+	text-align: center;
+}
+
+.e-left p{
+	margin: -3px;
+    text-align: justify;
+    width: 515px;
+}
+
+.e-left a button{
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 8px;
+	color: white;
+	background: #FB8D98;
+	border: none;
+}
+
+.e-right h3{
+	padding: 10px;
+	text-align: center;
+}
+
+.e-right p{
+	margin: -3px;
+    text-align: justify;
+    width: 515px;
+}
+
+.e-right a button{
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 8px;
+	color: white;
+	background: #FB8D98;
+	border: none;
+}
+
+/*****************************************
+ Event section css code end from here
+*****************************************/
+
+/*****************************************
+ banner section css code start from here
+*****************************************/
+
+.banner{
+	padding: 30px 0;
+}
+.b-text img{
+	margin-top: -210px;
+	Width: 100%;
+	height: 95vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.b-text h1{
+	margin-top: -545px;
+    margin-left: 24px;
+    color: white;
+    font-size: 60px;
+    padding: 15px;
+}
+
+.b-text p{
+	margin-top: 20px;
+    margin-left: 42px;
+    width: 353px;
+    color: white;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.b-text h3{
+	margin-top: 50px;
+    color: white;
+    margin-left: 48px;
+    font-size: 15px;
+}
+
+.b-text h3 i{
+	margin-left: 10px;
+}
+
+/*****************************************
+ banner section css code end from here
+*****************************************/
+
+/*****************************************
+ Gallery section css code start from here
+*****************************************/
+
+.gallery{
+	padding: 180px 0;
+}
+
+.gallery .container{
+	display: flex;
+	align-items: center;
+}
+
+.g-text{
+	margin-left: 25px;
+}
+.g-text h1{
+	margin-bottom: 25px;
+	font-size: 60px;
+}
+
+.g-text p{
+	margin-bottom: 25px;
+    font-size: 15px;
+    width: 501px;
+    text-align: justify;
+}
+
+.g-text button{
+	background: #FB2056;
+    border: none;
+    margin: -4px;
+    padding: 10px;
+    border-radius: 25px;
+    color: white;
+}
+
+.g-pics{
+	justify-content: space-evenly;
+    margin-left: 120px;
+
+}
+
+.g-pics .g-1{
+	display: inline-block;
+}
+
+.g-2 img{
+	display: inline-block;
+    margin-bottom: -204px;
+    margin-left: -2px;
+}
+
+.g-3 img{
+	display: inline-block;
+    margin-left: 245px;
+    margin-top: -162px;
+}
+
+.g-pics .g-4{
+	display: inline-block;
+    margin-left: 222px;
+    margin-top: 26px;
+}
+
+/*****************************************
+ Galley section css code end from here
+*****************************************/
+
+/*****************************************
+ footer section css code end from here
+*****************************************/
+
+.footer{
+	padding: 40px 0;
+	text-align: center;
+	color: white;
+	background: #191919;
+}
+
+.f-text h2{
+	padding: 10px;
+}
+
+.f-text h3{
+	padding: 20px;
+}
+
+/*****************************************
+ footer section css code end from here
+*****************************************/
